@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkblue;
+    color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+.photo-container>img {
+    width: 100%;
+    box-shadow: 10px 10px 5px teal;
+}
+
+.name {
+    font-size: 3.5rem;
+    position: absolute;
+    left: 40%;
+    top: 90%;
+}
+
+.about {
+    text-align: center;
+}
+
+.social {
+    margin-top: 5px;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards {
+    height: 350px;
+    border: 2px solid orchid;
+    margin: 20px;
+}
+
+.project-link {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.pic-frame {
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 2rem;
+}
+
+svg {
+    width: 2rem;
+    height: 33px;
+    margin-bottom: -3px;
+}
+
+a:link {
+    color: white;
+    fill: white;
+}
+
+a:visited {
+    color: orchid;
+    fill: orchid;
+}
+
+a:hover {
+    color: aqua;
+    fill: aqua;
+}
+
+.contact {
+    margin-bottom: 30px;
+    text-align: center;
+}
